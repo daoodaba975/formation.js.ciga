@@ -1,8 +1,15 @@
-// Déclaration d'une fonction
 function additionner(a, b) {
   return a + b;
 }
 
+function soustraction(a, b) {
+  return a - b;
+}
+
+function multi(a, b) {
+  return a * b;
+}
+
 // Appel de la fonction
-let resultat = additionner(3, 5);
-console.log(resultat); // Affiche 8
+let resultat = multi(10, 5);
+console.log(resultat);

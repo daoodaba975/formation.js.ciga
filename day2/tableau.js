@@ -1,5 +1,5 @@
 // Déclaration d'un tableau
-let fruits = ["pomme", "banane", "orange"];
+let fruits = [12, 23, 45, 56, 67];
 
 // Accès aux éléments du tableau
-console.log(fruits[1]); // Affiche "banane"
+console.log(fruits[0]);

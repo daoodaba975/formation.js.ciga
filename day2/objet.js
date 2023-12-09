@@ -6,4 +6,13 @@ let personne = {
 };
 
 // Accès aux propriétés de l'objet
-console.log(personne.nom); // Affiche "John"
+console.log(
+  "Je m'appele " +
+    personne.nom +
+    " j'ai " +
+    personne.age +
+    " ans." +
+    " j'habite " +
+    personne.ville +
+    "."
+);
