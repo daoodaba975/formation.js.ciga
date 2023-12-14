@@ -1,7 +1,10 @@
 // Fonction classique
-function addition(a, b) {
-  return a + b;
-}
+// function addition(a, b) {
+//   return a + b;
+// }
 
 // Fonction fléchée équivalente
-const addition = (a, b) => a + b;
+const multi = (a, b) => a * b;
+
+let resultat = multi(10, 8);
+console.log(resultat);

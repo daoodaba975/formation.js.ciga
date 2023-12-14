@@ -6,7 +6,12 @@ class Véhicule {
   rouler() {
     console.log(this.marque + " roule...");
   }
+
+  arreter() {
+    console.log(this.marque + " est a l'arret...");
+  }
 }
 
 let voiture = new Véhicule("Toyota");
-voiture.rouler(); // Affiche "Toyota roule..."
+voiture.rouler();
+voiture.arreter();
