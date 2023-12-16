@@ -1,6 +1,6 @@
 let fruits = ["pomme", "banane", "orange"];
 
-fruits.unshift("kiwi");
+fruits.unshift("kiwi", "mangue", "abricot");
 console.log(fruits); // Affiche ['kiwi', 'pomme', 'banane', 'orange']
 
 fruits.shift();

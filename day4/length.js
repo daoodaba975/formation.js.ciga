@@ -1,2 +1,2 @@
-let message = "Bonjour, monde!";
-console.log(message.length); // Affiche 15
+let message = "Bonjour tout le monde!";
+console.log(message.length);

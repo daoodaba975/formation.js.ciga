@@ -1,6 +1,6 @@
 let fruits = ["pomme", "banane", "orange"];
 
-fruits.push("kiwi");
+fruits.push("kiwi", "mangue");
 console.log(fruits); // Affiche ['pomme', 'banane', 'orange', 'kiwi']
 
 fruits.pop();
