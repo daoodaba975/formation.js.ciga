@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Affichage de l'Heure</title>
+    <style>
+      /* Ajoutez du style pour rendre l'exemple plus attrayant */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      #heureActuelle {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Heure actuelle :</p>
+    <div id="heureActuelle">Chargement de l'heure...</div>
+
+    <script>
+      // Sélection de l'élément du DOM
+      let heureActuelleElement = document.getElementById("heureActuelle");
+
+      // Fonction pour mettre à jour l'heure
+      function mettreAJourHeure() {
+        // Création d'un objet Date pour obtenir l'heure actuelle
+        let date = new Date();
+
+        // Formatage de l'heure
+        let heures = date.getHours();
+        let minutes = date.getMinutes();
+        let secondes = date.getSeconds();
+
+        // Ajout d'un zéro devant les chiffres < 10 pour l'esthétique
+        heures = heures < 10 ? "0" + heures : heures;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        secondes = secondes < 10 ? "0" + secondes : secondes;
+
+        // Construction de la chaîne de l'heure
+        let heureFormat = heures + ":" + minutes + ":" + secondes;
+
+        // Mise à jour du contenu de l'élément
+        heureActuelleElement.textContent = heureFormat;
+      }
+
+      // Appel initial pour afficher l'heure au chargement de la page
+      mettreAJourHeure();
+
+      // Mise à jour de l'heure chaque seconde
+      setInterval(mettreAJourHeure, 1000);
+    </script>
+  </body>
+</html>
