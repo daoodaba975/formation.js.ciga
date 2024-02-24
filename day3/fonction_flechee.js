@@ -1,7 +1,7 @@
 // Fonction classique
-// function addition(a, b) {
-//   return a + b;
-// }
+function addition(a, b) {
+  return a + b;
+}
 
 // Fonction fléchée équivalente
 const multi = (a, b) => a * b;
