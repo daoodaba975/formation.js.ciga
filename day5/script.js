@@ -23,9 +23,9 @@ monImg.style.width = "300px";
 if (monNouveauTxt.length >= 10) {
   console.log("OK");
 } else {
-  console.log("Non");
+  console.log("NON");
 }
 
 monNouveauBtn.addEventListener("click", function () {
-  alert("Ok!");
+  alert("Ok !");
 });
