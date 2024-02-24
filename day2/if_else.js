@@ -1,7 +1,7 @@
-let age = 15;
+let age = 25;
 
 if (age >= 18) {
-  console.log("Vous êtes senior.");
+  console.log("Vous êtes majeur.");
 } else {
   console.log("Vous êtes mineur.");
 }
