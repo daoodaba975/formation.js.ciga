@@ -1,6 +1,6 @@
 try {
   // Code potentiellement problématique
-  let resultat = 10 / 0; // Division par zéro
+  let resultat = 10 / 0; // Division par zéro : impossible
   console.log(resultat);
 } catch (erreur) {
   // Gestion de l'erreur
