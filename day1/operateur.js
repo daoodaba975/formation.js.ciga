@@ -33,3 +33,19 @@ let p = 10;
 let q = 5;
 let r = p ** q;
 console.log(r);
+
+// Récupération de la racine carre de deux nombres
+let s = 10;
+let t = 5;
+let u = Math.sqrt(s);
+let v = Math.sqrt(t);
+let w = u * v;
+console.log(w);
+
+// Récupération de la racine cubique de deux nombres
+let x = 10;
+let y = 5;
+let z = Math.cbrt(x);
+let aa = Math.cbrt(y);
+let bb = z * aa;
+console.log(bb);
