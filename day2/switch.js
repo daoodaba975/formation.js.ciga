@@ -1,4 +1,4 @@
-let jourDeLaSemaine = "lundi";
+let jourDeLaSemaine = "dimanche";
 
 switch (jourDeLaSemaine) {
   case "lundi":
@@ -13,3 +13,13 @@ switch (jourDeLaSemaine) {
   default:
     console.log("Jour non reconnu.");
 }
+
+// if (jourDeLaSemaine == "lundi") {
+//   console.log("Début de semaine !");
+// } else if (jourDeLaSemaine == "mercredi") {
+//   console.log("Milieu de semaine !");
+// } else if (jourDeLaSemaine == "vendredi") {
+//   console.log("Bon weekend !");
+// } else {
+//   console.log("Jour non reconu !");
+// }
