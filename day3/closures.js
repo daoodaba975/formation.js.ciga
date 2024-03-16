@@ -9,5 +9,3 @@ function créerCompteur() {
 
 const monCompteur = créerCompteur();
 monCompteur(); // Affiche 1
-monCompteur();
-monCompteur();

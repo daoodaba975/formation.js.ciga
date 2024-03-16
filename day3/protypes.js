@@ -22,6 +22,6 @@ let daooda = new Personne("Daouda", "Guédiawaye", 16);
 let issa = new Personne("Issa", "Pikine", 18);
 let awa = new Personne("Awa", "Keur Massar", 20);
 
-awa.direBonjour();
-awa.ouJhabite();
+daooda.direBonjour();
+issa.ouJhabite();
 awa.monAge();
