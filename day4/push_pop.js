@@ -1,7 +1,13 @@
-let fruits = ["pomme", "banane", "orange"];
+// let age = [11, 12, 13];
+// console.log(age);
 
-fruits.push("kiwi", "mangue");
-console.log(fruits); // Affiche ['pomme', 'banane', 'orange', 'kiwi']
+// age.push(10, 9, 8);
+// console.log(age);
 
-fruits.pop();
-console.log(fruits); // Affiche ['pomme', 'banane', 'orange']
+let pays = ["France", "Espagne", "Italie"];
+console.log(pays);
+
+pays.pop();
+console.log(pays);
+
+console.log(pays.length);
