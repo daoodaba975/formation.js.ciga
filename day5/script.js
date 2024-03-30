@@ -11,6 +11,7 @@ let monNouveauBtn = document.getElementById("monBouton");
 
 //? Manipulation des éléments
 premierDiv.style.backgroundColor = "aqua";
+premierDiv.style.color = "blue";
 monH1.innerHTML = "Nouveau Titre";
 monH1.innerText = "CIGA";
 deuxiemeDiv.addEventListener("mouseover", function () {
