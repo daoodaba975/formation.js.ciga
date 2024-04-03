@@ -4,7 +4,7 @@ let open = document.querySelector(".Op");
 
 // Ajout d'un gestionnaire d'événements
 bouton.addEventListener("mouseover", function () {
-  alert("Le bouton a été cliqué!");
+  alert("Le bouton a été survolé!");
 });
 
 // Ouvrir le lien du balise a

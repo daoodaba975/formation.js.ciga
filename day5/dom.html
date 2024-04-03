@@ -11,6 +11,11 @@
       <p class="important">Vous devez vous connecter !!!!</p>
     </div>
 
+    <div class="conteneur">
+      <p class="para2">Ceci est un test de DOM</p>
+    </div>
+    <div class="conteneur"></div>
+
     <script>
       // Temps d'attente de 5 secondes
       setTimeout(function () {
@@ -18,13 +23,14 @@
       }, 5000);
 
       // Sélection d'éléments
-      let divElement = document.getElementById("monDiv");
+      let divElement = document.getElementsByClassName("conteneur")[0];
       let paraCiga = document.querySelector(".para1");
       let paragrapheImportant = document.querySelector(".important");
       document.get;
 
       // Manipulation d'éléments
-      divElement.style.backgroundColor = "lightblue";
+      divElement.style.backgroundColor = "yellow";
+      divElement.style.color = "red";
       paraCiga.innerHTML = "Bienvenue sur votre compte";
       paragrapheImportant.innerHTML = "Daouda vous etes connecté";
     </script>
