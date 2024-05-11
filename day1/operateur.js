@@ -49,3 +49,7 @@ let z = Math.cbrt(x);
 let aa = Math.cbrt(y);
 let bb = z * aa;
 console.log(bb);
+
+// Opérateur ternaire
+var age = 20;
+age > 18 ? console.log("Ok") : console.log("Pas ok");
