@@ -2,13 +2,22 @@
 function additionner(a, b) {
   return a + b;
 }
-
-function multi(c, d) {
-  return c * d;
+function add() {
+  return 10 + 10;
 }
 
-// Appel de la fonction
-let resultat = multi(5, 16);
+let rs = add();
+console.log(rs);
 
-// Affichage
+let resultat = additionner(10, "100");
 console.log(resultat);
+
+// function multi(c, d) {
+//   return c * d;
+// }
+
+// // Appel de la fonction
+// let resultat = multi(5, 16);
+
+// // Affichage
+// console.log(resultat);

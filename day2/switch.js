@@ -1,4 +1,4 @@
-let jourDeLaSemaine = "dimanche";
+let jourDeLaSemaine = "mardi";
 
 switch (jourDeLaSemaine) {
   case "lundi":
