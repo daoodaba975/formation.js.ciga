@@ -1,14 +1,14 @@
-let promise = new Promise((PromesseOK, PromesseNON) => {
-  let effectif = 80;
+let maPrommesse = new Promise((PromesseOUI, PromesseNON) => {
+  let effectif = 150;
 
   if (effectif >= 100) {
-    PromesseOK("Promesse tenue !");
+    PromesseOUI("Promesse tenue !");
   } else {
     PromesseNON("Promesse rejetée !");
   }
 });
 
-promise
+maPrommesse
   .then((result) => {
     console.log(result);
   })

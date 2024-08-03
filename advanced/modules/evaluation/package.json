@@ -1,5 +1,5 @@
 {
-  "name": "eval",
+  "name": "testmodule",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "daooda",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "js",
+    "module",
+    "package"
+  ]
 }

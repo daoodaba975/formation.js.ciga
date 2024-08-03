@@ -1,3 +1,4 @@
+// Les importations
 import { Moyenne } from "./exos/exo1.js";
 import { EstPair } from "./exos/exo2.js";
 import { Concat } from "./exos/exo3.js";

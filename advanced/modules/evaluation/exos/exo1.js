@@ -1,9 +1,10 @@
-let note1 = 18;
-let note2 = 20;
+let note1 = 6;
+let note2 = 8;
 let note3 = 11;
 
 let moyenne = (note1 + note2 + note3) / 3;
 
+// Exportation de la fonction qui calcule la moyenne
 export function Moyenne() {
   if (moyenne >= 10) {
     return "Admis";
