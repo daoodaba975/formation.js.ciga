@@ -1,15 +1,9 @@
-let handler = {
-  get: function (target, prop, receiver) {
-    if (prop in target) {
-      return target[prop];
-    } else {
-      return `La propriété ${prop} n'existe pas.`;
-    }
-  },
-};
+let target = {};
+let proxy = new Proxy(target, {});
 
-let person = { name: "John" };
-let proxy = new Proxy(person, handler);
+proxy.test = 5;
 
-console.log(proxy.name); // "John"
-console.log(proxy.age); // "La propriété age n'existe pas."
+console.log(target.test);
+console.log(proxy.test);
+
+for (let key in proxy) console.log(key);

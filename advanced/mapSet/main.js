@@ -1,10 +1,11 @@
-let map = new Map();
-map.set("name", "Alice");
-map.set("age", 25);
+const student = {
+  firstName: "Monica",
+  age: 20,
+  adresse: "Paris",
 
-console.log(map.get("name")); // "Alice"
-console.log(map.has("age")); // true
+  get Presentation() {
+    return `Je m'appelle ${this.firstName} et j'ai ${this.age} ans, j'habite à ${this.adresse}.`;
+  },
+};
 
-let set = new Set([1, 2, 3, 4, 4]);
-console.log(set.has(3));
-console.log(set.size);
+console.log(student.Presentation);

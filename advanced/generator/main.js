@@ -5,6 +5,6 @@ function* generator() {
 }
 
 let gen = generator();
-console.log(gen.next().value); // 1
-console.log(gen.next().value); // 2
-console.log(gen.next().value); // 3
+console.log(gen.next().value);
+console.log(gen.next().value);
+console.log(gen.next().value);
