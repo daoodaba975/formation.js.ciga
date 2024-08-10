@@ -1,8 +1,8 @@
 # Formation JS Ciga
 
-Code directory of concepts learned and others.
+JavaScript code directory of concepts learned and others, at CIGA.
 
-- [/1-basics](/1-basics)
-- [/2-exercises](/2-exercises)
-- [/3-test](/3-test)
-- [/4-advanced](/4-advanced)
+- [Basics](/1-basics)
+- [Exercises](/2-exercises)
+- [Test](/3-test)
+- [Advanced](/4-advanced)
