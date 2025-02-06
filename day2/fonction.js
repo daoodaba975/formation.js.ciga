@@ -2,15 +2,12 @@
 function additionner(a, b) {
   return a + b;
 }
-function add() {
-  return 10 + 10;
-}
 
-let rs = add();
-console.log(rs);
+let resultat1 = additionner(18, 50);
+console.log(resultat1);
 
-let resultat = additionner(10, "100");
-console.log(resultat);
+let resultat2 = additionner(-50, 80);
+console.log(resultat2);
 
 // function multi(c, d) {
 //   return c * d;

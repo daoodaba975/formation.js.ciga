@@ -1,5 +1,6 @@
-// Fonction constructeur pour créer un modèle d'objet
+// Class constructeur pour créer un modèle d'objet
 function Voiture(modele, vitesse, couleur) {
+  // Propriétés de l'objet
   this.modele = modele;
   this.vitesse = vitesse;
   this.couleur = couleur;
@@ -13,9 +14,9 @@ function Voiture(modele, vitesse, couleur) {
 }
 
 // Création d'instances de l'objet modèle
-let VoitureDaooda = new Voiture("Tesla", 200, "Rouge");
-let VoitureEtudiant = new Voiture("Ferrari", 350, "Jaune");
+let VoitureDeDaooda = new Voiture("Tesla", 200, "Rouge");
+let VoitureDesEtudiants = new Voiture("Ferrari", 350, "Jaune");
 
 // Utilisation de la méthode pour afficher les détails
-VoitureDaooda.afficherDetails();
-VoitureEtudiant.afficherDetails();
+VoitureDeDaooda.afficherDetails();
+VoitureDesEtudiants.afficherDetails();
