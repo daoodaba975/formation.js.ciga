@@ -1,17 +1,18 @@
-class Véhicule {
-  constructor(marque) {
-    this.marque = marque;
+// Classe Etudiant
+class Etudiant {
+  // Constructeur
+  constructor(nom, prenom, filiere, niveau) {
+    this.nom = nom;
+    this.prenom = prenom;
+    this.filiere = filiere;
+    this.niveau = niveau;
   }
 
-  rouler() {
-    console.log(this.marque + " roule...");
+  // Méthodes
+  sePresenter() {
+    console.log("Bonjour, je m'appelle " + this.prenom + " " + this.nom);
   }
-
-  arreter() {
-    console.log(this.marque + " est a l'arret...");
+  ceQueJetudie() {
+    console.log("Je suis en " + this.filiere + ", niveau : " + this.niveau);
   }
 }
-
-let voiture = new Véhicule("Toyota");
-voiture.rouler();
-voiture.arreter();

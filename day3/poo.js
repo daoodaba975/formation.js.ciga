@@ -1,4 +1,4 @@
-// Déclaration d'un objet en utilisant une fonction constructeur
+// Fonction constructeur
 function Personne(nom, age, adresse) {
   this.nom = nom;
   this.age = age;

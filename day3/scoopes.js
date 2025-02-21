@@ -1,3 +1,5 @@
+// Scoopes : portée des variables
+
 let variableGlobale = "Je suis globale";
 
 function exempleScope() {
@@ -5,10 +7,10 @@ function exempleScope() {
 
   if (true) {
     let variableBloc = "Je suis de bloc";
-    console.log(variableBloc); // Affiche "Je suis de bloc"
+    console.log(variableBloc);
   }
 
-  console.log(variableLocale); // Affiche "Je suis locale"
+  console.log(variableLocale);
 }
 
-console.log(variableGlobale); // Affiche "Je suis globale"
+console.log(variableGlobale);

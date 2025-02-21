@@ -1,5 +1,8 @@
+// Closures
+
 function créerCompteur() {
   let compteur = 0;
+
   function incrémente() {
     compteur++;
     console.log(compteur);
@@ -8,4 +11,4 @@ function créerCompteur() {
 }
 
 const monCompteur = créerCompteur();
-monCompteur(); // Affiche 1
+monCompteur();
