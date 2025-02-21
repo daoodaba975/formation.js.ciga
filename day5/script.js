@@ -1,4 +1,4 @@
-//! Récupération des éléments
+// Récupération des éléments
 let premierDiv = document.getElementById("div1");
 let monH1 = document.querySelector(".titre");
 let deuxiemeDiv = document.getElementById("div2");
@@ -9,7 +9,7 @@ let monImg = document.querySelector(".image0");
 let monNouveauTxt = document.getElementById("monText");
 let monNouveauBtn = document.getElementById("monBouton");
 
-//? Manipulation des éléments
+// Manipulation des éléments
 premierDiv.style.backgroundColor = "aqua";
 premierDiv.style.color = "blue";
 monH1.innerHTML = "Nouveau Titre";
